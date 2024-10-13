@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+    <script type="module" src="/static/main.js"></script>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <main>
+        <p>Test parsing.</p>
+        <form action="/documents/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="docxFile" accept=".docx" required>
+            <button type="submit">Upload</button>
+        </form>
+    </main>
+</body>
+</html>
